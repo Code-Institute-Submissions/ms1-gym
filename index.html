@@ -13,30 +13,115 @@
 </head>
 <body>
     <header>
-        <div>
-            <div>
-                <h1>Gym</h1>
-                <h2>by choice</h2>
-            </div>
-            <div>
-                <a><span>Home</span></a>
-                <a><span>About Us</span></a>
-                <a><span>Train</span></a>
-                <a><span>Prices</span></a>
-                <a><span>Gallery</span></a>
-            </div>
-        </div>
-        <div>
-           <a><span>Signin/Signup</span></a> 
-        </div>
+    <nav class="navbar navbar-light bg-light">
+  <p class="navbar-brand mb-0 h1">Gym <br>
+  By Choice</p>
+  <div class="nav justify-content-center" id="navbarNav">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Train</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Prices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Signin/Signup</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+    
+        
+        
     </header>
-    <section>      
+    <section>  
+    <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    
+                    <p class="lead">Test Training<br>
+                        For sek 99/week<br>
+                        
+                        <strong><mark>Join Us Now</mark></strong></p>
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up.</small></p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+    </div>    
     </section>
-    <footer>
-        <div>
-            <div><span>Address:</span></div>
-            <div><span>Opening Hours:</span></div>
-            <div><span>Follow Us:</span></div>
+   <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Address:</h5>
+                <p class="inline-block">
+                    Mondal Galleria<br>
+                    5th Floor<br>
+                    42145<br>
+                    Sweden
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Opening Hours:</h5>
+                <p class="inline-block">
+                    Gym are open 24 hrs a day.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
