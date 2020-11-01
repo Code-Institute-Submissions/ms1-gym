@@ -12,7 +12,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url('assets/image/hero-image.jpg') no-repeat bottom right fixed;
+    background: url("../assets/image/hero-image.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,12 +31,34 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    
+   
 }
 
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
 
 /*navbar*/
@@ -69,6 +91,31 @@ body {
     
 }
 
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -88,6 +135,18 @@ body {
     border-color: #df4929;
     color: white;
     
+}
+
+#photo{
+    clear: both;
+    line-height: 0;
+    column-count:4;
+    column-gap: 0px;
+
+
+}
+#photo img {
+    width:100%;
 }
 
 
