@@ -53,7 +53,8 @@ body {
     width: 100%;
     background-color: #002a4e;
     border: 0;
-    
+    display:flex;
+    padding-left: .25rem;
 }
 
 
@@ -75,7 +76,15 @@ body {
     
     
 }
-
+.ml-auto{
+    margin-left: inherit;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
 /* Jumbotron */
 
 .jumbotron {
@@ -133,6 +142,31 @@ body {
 #photo img {
     width:100%;
 }
+
+.content{
+    background-color:aliceblue;
+    margin: 0;
+    text-align: left;
+    padding: 30px;
+    
+}
+
+/* Features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+   
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+
 
 footer {
     background-color: #002a4e;
