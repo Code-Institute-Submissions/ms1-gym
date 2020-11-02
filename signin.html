@@ -8,7 +8,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Gym</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
   <div class="navbar-brand mb-0 h1"><span>Gym</span><span class="logo"> BY</span><span> CHOICE</span></div>
    <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
@@ -35,10 +35,10 @@
         <a class="nav-link" href="#">Prices</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn btn--cta btn--red" href="#">Signin/Signup</a>
+        <a class="nav-link btn btn--cta btn--red active" href="signin.html">Signin/Signup</a>
       </li>
       
     </ul>
@@ -49,8 +49,28 @@
         
     </header>
     <section>  
-    
+        <form>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary ">Sign in</button>
+    </div>
+  </div>
+</form>
     </section>
+
    <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
