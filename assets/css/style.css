@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ProximaNova-Regular', sans-serif;
 }
 .container-wrapper {}
 
@@ -8,11 +8,13 @@ body {
     color: white;
 }
 
-
+.container-fluid{
+    padding: 0px;
+}
 .callout-container {
-    height: 100vh;
+    
 
-    background: url("../assets/image/hero-image.jpg") no-repeat bottom right fixed;
+    background: url("../image/hero-image.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,27 +41,6 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
 }
-.jumbotron {
-    background-color: transparent;
-}
-
-.jumbotron h1 {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: white;
-}
-
-.jumbotron .lead {
-    color: #a7a7a7;
-    margin: 25px 0;
-}
-
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: #d0d0d0;
-}
 
 /*navbar*/
 .logo{
@@ -75,14 +56,18 @@ body {
     
 }
 
+
 .navbar .navbar-toggler {
     border: 0;
 }
 
 .navbar .navbar-brand {
+    font-family: inherit;
     font-weight: bold;
     font-size: 30px;
     
+}
+
 }
 
 .navbar .navbar-nav a {
@@ -101,7 +86,7 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
+    
 }
 
 .jumbotron .lead {
@@ -119,7 +104,7 @@ body {
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 120px;
 }
 
 .btn--red {
@@ -148,7 +133,6 @@ body {
 #photo img {
     width:100%;
 }
-
 
 footer {
     background-color: #002a4e;
