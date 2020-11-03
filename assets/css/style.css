@@ -3,6 +3,7 @@ body {
 }
 .container-wrapper {}
 
+
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
@@ -10,6 +11,7 @@ body {
 
 .container-fluid{
     padding: 0px;
+    width: 100%;
 }
 .callout-container {
     
@@ -40,6 +42,8 @@ body {
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*navbar*/
@@ -54,6 +58,7 @@ body {
     background-color: #002a4e;
     border: 0;
     display:flex;
+    
     padding-left: .25rem;
 }
 
@@ -112,7 +117,8 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 15px;
+    
     width: 120px;
 }
 
@@ -120,7 +126,9 @@ body {
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
+    
 }
+
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
@@ -130,6 +138,7 @@ body {
     color: white;
     
 }
+
 
 #photo{
     clear: both;
@@ -152,19 +161,25 @@ body {
 }
 
 /* Features */
-
-.feature {
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
     text-align: center;
-    margin-bottom: 40px;
-   
 }
 
+.page-header h2 {
+    margin-top: 0;
+}
+.feature {
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 0px;
+}
 .feature i {
     margin-bottom: 20px;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 45px;
 }
-
 
 
 
