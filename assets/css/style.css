@@ -1,5 +1,5 @@
 body {
-    font-family: 'ProximaNova-Regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container-wrapper {}
 
@@ -50,6 +50,7 @@ body {
 .logo{
    
     color:greenyellow;
+    font: Permanent Marker;
     
 }
 .navbar{
@@ -70,7 +71,7 @@ body {
 .navbar .navbar-brand {
     font-family: inherit;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 10px;
     
 }
 
