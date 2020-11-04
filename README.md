@@ -48,17 +48,17 @@ It provides the campaign offer which attract users which gives benefit to both u
     1. I want to access gallery of gym to know more about inside picture of gym.
     1. I want to access external links. 
 
-- ####The users who want to join the gym will check how far it is from their place and the contact details.
+- #### The users who want to join the gym will check how far it is from their place and the contact details.
     1. I want to find the contact details easily without going to any tab on page.
     1. I want to find the address details easily without single click on screen.
     1. I want to check any offers which should be on landing page and I can find easily.
 
-- ####The users who want to be member for the gym will look for signup button.
+- #### The users who want to be member for the gym will look for signup button.
     1. I want to find the training which suits me.
     1. I want to check the price for my training.
     1. I want to look find for signup button on landing page for becoming the member of gym.
    
-- ####The users who are already a member will look for signin button to check their account and also check if there is any new offers.
+- #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
     1. I want the site is responsive on all device as I usually use phone for doing all such type of stuff.
     1. I want to be able to use the website on any device so I can keep it handy.
     1. I want to use the navigation at all times and have it readily available so I can quickly navigate from one page to another.
@@ -101,7 +101,7 @@ It provides the campaign offer which attract users which gives benefit to both u
     - The navigation link, matching the page that the user is visiting, stays 'active' to let the user quickly establish which page she/he is visiting.
     - Navigation links collapse in a home menu when viewed in mobile sizes.
     
-- - [x] **Accessibility**
+- [x] **Accessibility**
     - All Pages have a description in case the image link breaks as well as helps screen readers.
     - The home menu has aria-label added to let users with screen readers know where the toggleable menu is.
     
@@ -135,10 +135,10 @@ It provides the campaign offer which attract users which gives benefit to both u
 - [x] **Prices**
     - This page uses grid system to display the information of prices of different training.
 
--[x] **Gallery**
+- [x] **Gallery**
     - This page display images of gym.
 
--[x] **Signin/Signup**
+- [x] **Signin/Signup**
     - This page uses the form and allow you to signin/signup.
 
 ### Future Features
@@ -176,7 +176,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 - #### Footer
     - Footer is located at the bottom of the page regardless of the content amount. This was tested by removing all content from any given page.
     - Then the social links are clicked, they open the relevant social media page in a new tab.
--  #### All external links were tested to make sure they open up the correct pages in new tabs.
+- #### All external links were tested to make sure they open up the correct pages in new tabs.
     - All social links in the footer bring the user to the relevant social pages
 - #### All internal links were tested to make sure that all pages are correctly connected 
     - Navigation links bring the user to the relevant pages
@@ -204,7 +204,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 - #### The users who want to be member for the gym will look for signup button.
 
 
-- ####The users who are already a member will look for signin button to check their account and also check if there is any new offers.
+- #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
 
 <a name="deployment"></a>
 ## Deployment
@@ -266,10 +266,10 @@ There are no identified bugs as at now.
 ### Media :
 - All images used were taken from [UnSplash website](https://unsplash.com/)
 
-### Acknowledgements
+### Acknowledgements :
 
 - I was inspired by the people of surrounding me who are taking care of their health very seriously.
--Thanks to my fellow student and tutors on slack channel who helped me in some way.
+- Thanks to my fellow student and tutors on slack channel who helped me in some way.
 - Thanks to my mentor for helping me throughout the project and giving me important suggestions and feedback of my work.
 
 
