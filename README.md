@@ -2,9 +2,9 @@
 <h1 align="center">GYM BY CHOICE</h1>
 <h1 align="center"><img src="assets/image/mockup/home.png" /></h1>
 
- <a href=""><img src="" width="25px" /></a> :point_left: Live website
+-[Live Website](https://rubysrivastava.github.io/ms1-gym/)
 
-  <a href=""><img src="" width="25px" /></a> :point_left: GitHub Repository
+-[GitHub Repository](https://github.com/RubySrivastava/ms1-gym/)
  
  ## About
 
