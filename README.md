@@ -84,7 +84,10 @@ It provides the campaign offer which attract users which gives benefit to both u
 - #### Mockups
     - Mockups were created using Adobe Xd.
     -[Desktop Wireframes](https://xd.adobe.com/view/6fd631a7-5485-457b-bd28-9d3cc5bb0178-3a85/)
-
+    - Mockup made through original website 
+    -[Wireframes](https://techsini.com/multi-mockup/index.php)
+    
+    
     <img src="assets/image/mockup/home.png" />
     <img src="assets/image/mockup/about.png" />
     <img src="assets/image/mockup/train.png" />
