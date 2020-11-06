@@ -14,7 +14,7 @@ body {
 .container-fluid {
   padding: 0px;
   width: 100%;
-}
+  }
 /*callout container*/
 .callout-container {
   background: url("../image/hero-image.jpg") no-repeat bottom right fixed;
@@ -39,6 +39,7 @@ body {
   padding-bottom: 75px;
   padding-left: 20px;
   padding-right: 20px;
+  height:600px;
 }
 
 /*navbar*/
@@ -164,13 +165,18 @@ a {
 }
 
 /*footer*/
-footer {
+.footer {
+  position: absolute;
   background-color: #002a4e;
   color: #fafafa;
   min-height: 120px;
   margin: 0;
+  width: 100%;
+  bottom:0;
+
 }
-.social-links {
+ 
+ .social-links {
   padding-bottom: 15px;
 }
 .social-links li a i {
