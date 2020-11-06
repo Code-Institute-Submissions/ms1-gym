@@ -17,15 +17,18 @@ body {
   }
 /*callout container*/
 .callout-container {
-  background: url("../image/hero-image.jpg") no-repeat bottom right fixed;
+  background: url("../image/hero-image.jpg") no-repeat bottom right ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color:dimgrey;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   position: relative;
+  height: 800px;
+  
 }
 .opaque-overlay {
   position: absolute;
@@ -58,7 +61,7 @@ body {
   border: 0;
 }
 .navbar .navbar-brand {
-  font-family: inherit;
+  font-family: emoji;
   font-weight: bold;
   font-size: 20px;
 }
@@ -78,11 +81,16 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  background-color: transparent;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  margin-bottom : 2rem;
 }
 .jumbotron h1 {
   color: white;
   font-weight: bold;
+  font-size: 30px;
+  font-family: "Expo";
   margin-bottom: 30px;
 }
 .h1,
@@ -166,13 +174,14 @@ a {
 
 /*footer*/
 .footer {
-  position: absolute;
+  
   background-color: #002a4e;
   color: #fafafa;
-  min-height: 120px;
+  min-height: 100px;
   margin: 0;
   width: 100%;
   bottom:0;
+  position: fixed;
 
 }
  
@@ -199,4 +208,6 @@ a {
 }
 #footer-details {
   padding: 10px;
+  font-family: emoji;
+  text-align: center;
 }
