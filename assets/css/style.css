@@ -17,7 +17,7 @@ body {
   }
 /*callout container*/
 .callout-container {
-  background: url("../image/hero-image.jpg") no-repeat bottom right ;
+  background: url("../image/hero-image1.jpg") no-repeat bottom right ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,6 +29,13 @@ body {
   position: relative;
   height: 800px;
   
+  
+}
+.bg-img-hero{
+    background: url("../image/group-train.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 .opaque-overlay {
   position: absolute;
@@ -42,7 +49,7 @@ body {
   padding-bottom: 75px;
   padding-left: 20px;
   padding-right: 20px;
-  height:600px;
+  
 }
 
 /*navbar*/
@@ -85,6 +92,7 @@ body {
   padding: 2rem 1rem;
   margin-top: 2rem;
   margin-bottom : 2rem;
+  width: 100%;
 }
 .jumbotron h1 {
   color: white;
@@ -140,6 +148,7 @@ a {
 #photo img {
   width: 100%;
 }
+/*new*/
 
 /*content*/
 .content {
@@ -170,6 +179,11 @@ a {
 /*form*/
 .form-control {
   width: 60%;
+}
+.forgot-pass{
+    color: black;
+    align-items: center;
+    text-align: right;
 }
 
 /*footer*/
