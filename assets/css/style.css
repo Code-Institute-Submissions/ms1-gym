@@ -39,6 +39,7 @@ body {
   
   
 }
+
 .bg-img-hero{
     background: url("../image/group-train.jpg") ;
     background-size: cover;
@@ -286,6 +287,10 @@ a {
     box-shadow: var(--box-shadow);
 }
 /*form*/
+
+
+
+
 .form-control {
   width: 60%;
 }
