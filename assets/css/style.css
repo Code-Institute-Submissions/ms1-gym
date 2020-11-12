@@ -1,4 +1,5 @@
-body{font-family: "Roboto", sans-serif;
+body { 
+    font-family: "Roboto", sans-serif;
 }
 
 /*container*/
@@ -179,9 +180,6 @@ body{font-family: "Roboto", sans-serif;
     text-align: center;
 }
 /*card for sign in page*/
-.card-body{
-    word-wrap:none;
-}
 .card-img-signin {
     width: 100%;
     height: auto;
