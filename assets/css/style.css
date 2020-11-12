@@ -1,6 +1,4 @@
-/*body*/
-body {
-  font-family: "Roboto", sans-serif;
+body{font-family: "Roboto", sans-serif;
 }
 
 /*container*/
@@ -93,7 +91,7 @@ body {
     display: block;
   }
 }
-
+/*card*/
 .card-img {
     width: 100%;
     height: 400px;
@@ -132,7 +130,6 @@ body {
     font-family: "Expo";
     font-size: 25px;
 }
-
 .card-img-top {
     width: 100%;
     height: 400px;
@@ -141,12 +138,7 @@ body {
     margin: 0px;
     padding: 10px;
 }
-.page-title{
-    background-color:#002a4e;
-    margin:20px;
-    padding:10px;
-    width: 100%;
-}
+/*about us styling*/
 .page-title-program{
     background-color: #002a4e;
     color: #fff;
@@ -186,15 +178,14 @@ body {
     align-items: center;
     text-align: center;
 }
+/*card for sign in page*/
 .card-body{
     word-wrap:none;
 }
-
 .card-img-signin {
     width: 100%;
     height: auto;
-    border-radius: calc(.25rem - 1px);
-    
+    border-radius: calc(.25rem - 1px);  
 }
 .card-body-signin{
     color: black;
@@ -206,17 +197,15 @@ body {
     font-size:30px;
     font-family:"Expo";
     margin-top: 80px;
-   
-   
-
 }
 .card-login{
     font-size:20px;
     font-family:"Expo";
-    margin: 10px;
-    
-    
+    margin: 10px;    
 }
+ .card-position{
+     margin-top:20px;
+ }
 .container-login {
   background: url("../image/instrument1.jpg") no-repeat bottom right ;
   -webkit-background-size: cover;
@@ -228,9 +217,6 @@ body {
   height: 100vh;
   justify-content: center;
   position: relative;
-  
-  
-  
 }
 .login{
     width: 400px;
@@ -243,9 +229,6 @@ body {
   margin-bottom : 2rem;
   width: 100%;
   font-family: "expo";
-  
-
-  
 }
 /* Jumbotron */
 .jumbotron {
@@ -299,13 +282,11 @@ a {
   color: white;
 }
 
-/*photo*/
+/*gallery styling*/
 #photo-gl{
-
     margin:20px;
     padding:20px;
     clear: both;
-    
 }
 #photo {
   clear: both;
@@ -316,31 +297,7 @@ a {
 #photo img {
   width: 100%;
 }
-/*new*/
-/*
-.card-img-top {
-    width: 100%;
-    height: 200px;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-    margin:10px;
-    padding: 10px;
-}
 
-#about-us{
-    width: 100%;
-     
-    margin:10px;
-    padding:10px;
-}
-.title-why-us{
-    width:100%;
-    height:100px;
-    background-color:aliceblue;
-    text-align: center;
-    align-items: center;
-}
-*/
 /*content*/
 .content {
   background-color: aliceblue;
@@ -358,6 +315,17 @@ a {
 }
 .page-header h2 {
   margin-top: 0;
+} 
+.page-title-about {
+    background-color: #002a4e;
+    color: #fff;
+    margin: 50px 0px;
+    padding: 5px 2px;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+    width:100%;
 }
 .feature {
   text-align: center;
@@ -370,48 +338,31 @@ a {
   font-size: 45px;
   line-height: 45px;
 }
-
-.page-title {
-    
-    background-color: #002a4e;
-    color:#fff;
-    margin: 50px 0px;
-    padding: 5px 2px;
-    text-align: center;
-    border-radius: 8px;
-    -webkit-box-shadow: var(--box-shadow);
-    box-shadow: var(--box-shadow);
-    width:710px;
+/*form for sigin/signup*/
+.card-img-signup {
+    width: 100%;
+    height: 900px;
+    border-radius: calc(.25rem - 1px); 
 }
-/*form*/
-
-
-
-
 .form-control {
   width: 60%;
+  
 }
 .forgot-pass{
     color: black;
     align-items: center;
     text-align: right;
 }
-
-
 /*footer*/
 .footer {
-  
   background-color: #002a4e;
   color: #fafafa;
   min-height: 100px;
   margin: 0px;
   width: 100%;
   bottom:0px;
-  
   margin-top: auto;
-
 }
- 
  .social-links {
   padding-bottom: 15px;
 }
