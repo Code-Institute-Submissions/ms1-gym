@@ -54,8 +54,8 @@
     <!--Header-->
     <header>
       <div class="container-fluid">
-        <nav class="navbar navbar-dark navbar-expand-sm">
-          <a href="/" class="navbar-brand"
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+          <a href="index.html" class="navbar-brand"
             ><span>GYM</span><span class="logo"> BY</span
             ><span> CHOICE</span></a
           >
@@ -79,10 +79,7 @@
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="train.html">Train</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="prices.html">Prices</a>
+                <a class="nav-link" href="prices.html">Membership</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">Gallery</a>
@@ -99,132 +96,65 @@
     </header>
     <!--header-->
     <!--section-->
-    
-   <section>
-   <div class="container-fluid container-wrapper">
-   <div class="card mb-3">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="../assets/image/login1.jpg" class="card-img" alt="gym pic">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
+
+    <div class="container-fluid container-login img-fluid">
+      <div class="row login">
+        <div class="col-12">
+          <section class="callout login-box text-center">
             <form>
-            <div>
-            <h1>Welcome Back!</h1>
-            </div>
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label" 
-                >Email</label
-              >
-              
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" />
+              <div>
+                <h1>Welcome Back!</h1>
               </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label"
-                >Password</label
-              >
-              <div class="col-sm-10">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="inputPassword3"
-                  placeholder="****"
-                />
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"
+                  >Email</label
+                >
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" />
+                </div>
               </div>
-              
-            </div>
-
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label"
+                  >Password</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword3"
+                    placeholder="****"
+                  />
+                  <a class="forgot-pass" href="#">Forgot Password?</a>
+                </div>
               </div>
-            </div>
-            <br>
-            <a class="forgot-pass" href="#">Forgot Password?</a>
-          </form>
 
-          <p class="text-muted">
-            <span><small>Not a member yet!</small></span
-            ><span
-              ><strong><mark>become member</mark></strong></span
-            >
+              <div class="form-group row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </div>
+            </form>
 
-            <span
-              ><a
-                class="btn btn-lg btn--cta btn--red"
-                href="signup.html"
+            <p class="text-muted">
+              <span><small>Not a member yet!</small></span
+              ><span
+                ><strong><mark>become member</mark></strong></span
               >
-                Sign Up!
-              </a>
-            </span>
-          </p>
-          </div>
+
+              <span
+                ><a class="btn btn-lg btn--cta btn--red" href="signup.html">
+                  Sign Up!
+                </a>
+              </span>
+            </p>
+          </section>
+        </div>
       </div>
     </div>
-  </div>
-   </div>
-   </section>
-<!--
-        <div>
-                <form>
-            <div>
-            <h1>Welcome Back!</h1>
-            </div>
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label" 
-                >Email</label
-              >
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label"
-                >Password</label
-              ><a class="forgot-pass" href="#">Forgot Password?</a>
-              <div class="col-sm-10">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="inputPassword3"
-                  placeholder="****"
-                />
-              </div>
-            </div>
 
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </div>
-            </div>
-          </form>
-
-          <p class="text-muted">
-            <span><small>Not a member yet!</small></span
-            ><span
-              ><strong><mark>become member</mark></strong></span
-            >
-
-            <span
-              ><a
-                class="btn btn-lg btn--cta btn--red"
-                href="signup.html"
-              >
-                Sign Up!
-              </a>
-            </span>
-          </p>
-          </div>
-          </section>
-       
-          -->
-       
     <!--section-->
     <!--Footer-->
-    <footer class="footer container-fluid">
+    <footer class="footer fixed-bottom container-fluid">
       <div id="footer-details" class="row">
         <div class="col-sm-4">
           <h5 class="uppercase general-sub">Contact Us:</h5>
@@ -232,7 +162,10 @@
             Mofal Galleria,5th Floor<br />
             42145 Sweden<br />
             Ph.No. +333546789<br />
-            E-mail: <a href="https://www.gmail.com" target="_blank">gymbychoice@gmail.com</a>
+            E-mail:
+            <a href="https://www.gmail.com" target="_blank"
+              >gymbychoice@gmail.com</a
+            >
           </p>
         </div>
         <div class="col-sm-4">
@@ -260,7 +193,6 @@
                 <span class="sr-only">LinkedIn</span>
               </a>
             </li>
-            
             <li class="list-inline-item">
               <a target="_blank" href="https://www.instagram.com">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
