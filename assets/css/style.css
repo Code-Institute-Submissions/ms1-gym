@@ -83,6 +83,7 @@ h1 {
 .page-title-about {
   background-color: #002a4e;
   color: #fff;
+  font-family: "Expo";
   margin: 50px 0px;
   padding: 5px 2px;
   text-align: center;
@@ -278,7 +279,7 @@ h1 {
   color: greenyellow;
 }
 .navbar .navbar-brand {
-  font-family: emoji;
+  font-family: "Expo";
   font-weight: bold;
   font-size: 20px;
 }
@@ -331,7 +332,7 @@ h1 {
 }
 #footer-details {
   padding: 10px;
-  font-family: emoji;
+  font-family: "Expo";
   text-align: center;
 }
 /*End Footer*/
