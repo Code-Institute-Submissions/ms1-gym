@@ -66,20 +66,28 @@ It provides the campaign offer which attract users which gives benefit to both u
      
 ### Design
 
-
 - #### Colour 
-    - 
+    - <img src="assets/image/readme-img/#002a4e.png" height="40px" /> This website is design for gym which needs lots of motivation.
+    The main color which is used for header and footer is dark blue which shows trust to stay with it.
 
-        
+    - <img src="assets/image/readme-img/#f0f8ff.png" height="40px" />
+      <img src="assets/image/readme-img/#ffffff.png" height="40px" />
+      
+    The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.
+     
+    - <img src="assets/image/readme-img/#00ffff.png" height="40px" />
+      <img src="assets/image/readme-img/#c0c0c0.png" height="40px" />
+      <img src="assets/image/readme-img/#daa520.png" height="40px" />
+      <img src="assets/image/readme-img/#000000.png" height="40px" />
 
+    These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for content.
+     
 - #### Typography
-    - 
+    - The main font used is a Roboto with sans-serif as a fallback font.
+    - The second font used is a Expo for brand name ,footer details and titles.
 
-        
 - #### Imagery
-    - 
-
-
+    - Images used for website describe overall information and details of gym.
 
 - #### Mockups
     - Mockups were created using Adobe Xd.
@@ -87,16 +95,12 @@ It provides the campaign offer which attract users which gives benefit to both u
     - Mockup made through original website 
     -[Wireframes](https://techsini.com/multi-mockup/index.php)
     
-    
     <img src="assets/image/mockup/home.png" />
-    <img src="assets/image/mockup/about.png" />
-    <img src="assets/image/mockup/train.png" />
-    <img src="assets/image/mockup/prices.png" />
+    <img src="assets/image/mockup/about-us.png" />
+    <img src="assets/image/mockup/membership.png" />
     <img src="assets/image/mockup/gallery.png" />
     <img src="assets/image/mockup/signin.png" />
-
-    
-
+    <img src="assets/image/mockup/signup.png" />
 
  <a name="features"></a>
 ## Features
@@ -106,12 +110,12 @@ It provides the campaign offer which attract users which gives benefit to both u
 #### Common Features Across All Pages
 
 - [x] **Header** - allows user to easily navigate across all pages
-    - The header itself is positioned to always be visible (positioned absolutely using Bootstrap 'sticky-top' class) at the top of the screen (mobile and desktop) which allows visitors to find it quickly.
+    - The header itself is positioned to always be visible (positioned absolutely using Bootstrap 'fixed-top' class) at the top of the screen (mobile and desktop) which allows visitors to find it quickly.
     - The brand logo is positioned on the left and is visible on all pages.
     - Navigation is included in the header to let the user intuitively locate it.
     - Navigation links is more visible when hovered over. This lets the visitor know that it is clickable.
-    - The navigation link, matching the page that the user is visiting, stays 'active' to let the user quickly establish which page she/he is visiting.
-    - Navigation links collapse in a home menu when viewed in mobile sizes.
+    - The navigation link, matching the page that the user is visiting, stays 'active' to let the user quickly establish which page is visiting.
+    - Navigation links collapse in a home menu when viewed on mobile device.
     
 - [x] **Accessibility**
     - All Pages have a description in case the image link breaks as well as helps screen readers.
@@ -120,32 +124,26 @@ It provides the campaign offer which attract users which gives benefit to both u
 - [x] **Buttons**
     - All buttons are styled in the way to provide consistency across the page. 
 
-- [x] **Decorative elements**
-    - Custom created decorative styling backgrounds are used across all pages providing users with a consistent and unique webpage browsing experience.
-
 - [x] **Responsiveness**
-    - All Pages are responsive and provide the same functionality regardless of the viewport size.
+    - All Pages are responsive on different viewport size.
 
 - [x] **Footer**
     - Footer has been designed to be at the bottom of the page, regardless of the amount of content. This aids the overall user experience.
-    - All content has been spaced out and aligned to the left.
+    - All content has been spaced out and aligned to the center.
     - Follow Us have social links and when hovered over, it changed the color.
-    - Address have the address details with phone no. and e-mail address.
-    - Opening Hours have the details of time.
+    - Address have the address details with phone no. and E-mail address.
+    - Opening Hours have the details of time and day.
 
 
 ### Specific to Pages
 - [x] **Landing Page**
-    - This page has header, footer and a hero image in background. The header has navigation bar and footer has contact, address and social links.The image brings the user's attention to the heading and inviting the user to explore the website.
+    - This page has header, footer and a hero image in background. The header has navigation bar and footer has contact, schedule time and social links.The image brings the user's attention and inviting the user to explore the website.
 
 - [x] **About Us**
     - The information of the gym to let the user know what the services gym provides.
     
-- [x] **Train**
-    - This page uses grid system to display the information of different training.
-
-- [x] **Prices**
-    - This page uses grid system to display the information of prices of different training.
+- [x] **Membership**
+    - This page uses cards and grid system to display the information of offers and membership of different training.
 
 - [x] **Gallery**
     - This page display images of gym.
@@ -157,7 +155,7 @@ It provides the campaign offer which attract users which gives benefit to both u
  
 - [ ] Ongoing implementation of user feedback.
 - [ ] Create a way for the user to rate the website without having to type up feedback.
-- [ ] A page where people can review the comments..
+- [ ] A page where people can review the comments.
 
 
 <a name="technologies"></a>
@@ -170,14 +168,14 @@ It provides the campaign offer which attract users which gives benefit to both u
 
 ### Frameworks, Libraries and Programs Used
 
-- [Bootstrap v4.5.0](https://getbootstrap.com/) - Used for the responsive layout as well as custom components such as image carousel, navigation bar, footer, cards, and collapse element.
-- [Font Awesome](https://fontawesome.com/) - Font Awesome was used to add social icons and complement the design.
-- [Google Fonts](https://fonts.google.com/) - Google Fonts was used to import 'Exo' and 'PT Sarif' fonts in the main.css stylesheet.
-- [Git](https://git-scm.com/) - Git was used to allow for tracking of any changes in the code and for the version control.
+- [Bootstrap v4.5.0](https://getbootstrap.com/) - Used for the responsive layout as well as custom components such as header, footer, images, icons, grids, cards, and collapse element.
+- [Font Awesome](https://fontawesome.com/) - Font Awesome is used to add social icons for socila links and icons for about us page.
+- [Google Fonts](https://fonts.google.com/) - Google Fonts is used to import 'Expo' in the style.css stylesheet.
+- [Git](https://git-scm.com/) - Git is used to allow for tracking of any changes in the code and for the version control.
 - [GitPod](https://www.gitpod.io/) - GitPod, connected to GitHub, hosted the coding space and allowed the projected to be committed to the Github repository.
 - [Github](https://github.com/) - GitHub is used to host the project files and publish the live website by using Git Pages.
-- [Adobe Xd](https://www.adobe.com/ie/products/xd.html) - Adobe Xd was used to create wireframes and mockups.
-    - [Icons 4 Design](http://emsoftware.com/xdplugins/icons-4-design/) - Icons 4 Design was used to add some icons across the page such as the alert sign on the 'Informed' page.
+- [Adobe Xd](https://www.adobe.com/ie/products/xd.html) - Adobe Xd is used to create mockups.
+
 
 <a name="#testing"></a>
 ## Testing
@@ -185,35 +183,56 @@ It provides the campaign offer which attract users which gives benefit to both u
  ### Functionality Testing
 - #### Navigation bar
     - The navigation bar stays at the top of the page on all screen sizes.
+    - When the nav links clicks it opens the relevent page in same window with same header footer.
 - #### Footer
-    - Footer is located at the bottom of the page regardless of the content amount. This was tested by removing all content from any given page.
-    - Then the social links are clicked, they open the relevant social media page in a new tab.
-- #### All external links were tested to make sure they open up the correct pages in new tabs.
-    - All social links in the footer bring the user to the relevant social pages
-- #### All internal links were tested to make sure that all pages are correctly connected 
-    - Navigation links bring the user to the relevant pages
+    - Footer is located at the bottom of the page regardless of the content amount.
+    - When the social links are clicked, they open the relevant social media page in a new tab.
+- #### All external links is tested to make sure they open up the correct pages in new tabs.
+- #### All internal links is tested to make sure that all pages are correctly connected.
     
 ### CSS3 validator 
-
+<a href="#"></a>
 
 ### HTML5 validator
+<a href="#"></a>
+<a href="#"></a>
+<a href="#"></a>
+<a href="#"></a>
+<a href="#"></a>
+<a href="#"></a>
 
 ### Usability Testing
--
+- This website is shared on slack channel to get the feedback.
 
 ### Compatibility Testing
-
 
 ### Performance Testing
 
 ### Testing User Stories 
-- #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information and want to check the social page to know more about gym. They also wants to check picture gallery.
+- #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
+      1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
+        - The landing page is simple and clear with a image and offer. 
+        - All pages of website has navigation bar and footer. 
+        - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
+        - The footer has contact details and link of email so I can easily add it to my contact. 
+        - Footer has clear information of opening hours.
+        - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
     
+    1. I want to access external links and be able to learn more about each page.
+        - Home Page
+            -
+        - About Us Page
+            - 
+        - Membership Page
+            -
+        - Gallery Page
+            - 
+        - Signup Page
 
 - #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
     
 
-- #### The users who want to be member for the gym will look for signup button.
+- #### The users who want to be member for the gym will look for membership plan and signup button.
 
 
 - #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
@@ -224,9 +243,8 @@ It provides the campaign offer which attract users which gives benefit to both u
 ### Publishing
 This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below.
 1. Go to the GitHub website and log in.
-2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/liigalized/MS1_boredom_guide) used for this project).
+2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project).
 3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
-<img src="" height="35px" />
 4. Scroll down till you see 'GitHub Pages' heading.
 5. Under the 'Source' click on the dropdown and select 'master branch'
 6. The page will reload and you'll see the link of your published page displayed under 'GitHub' pages.
@@ -235,18 +253,16 @@ This website was published using [GitHub Pages](https://pages.github.com/). The 
 ### Forking
 If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
 1. Go to the GitHub website and log in.
-2. Locate the [Repository]() used for this project.
+2. Locate the [Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project.
 3. On the right-hand side of the Repository name, you'll see the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
-<img src="" height="35px" />
 4. This will create a copy in your personal repository.
 5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
 
 ### Cloning 
 If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
 1. Go to the GitHub website and log in.
-2. Locate the [Repository]() used for this project.
+2. Locate the [Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project.
 3. Under the Repository name locate 'Clone or Download' button in green.
-<img src="" height="35px" />
 4. To clone the repository using HTTPS click the link under "Clone with HTTPS".
 5. Open your Terminal and go to a directory where you want the cloned directory to be copied in.
 6. Type `Git Clone` and paste the URL you copied from the GitHub.
