@@ -216,15 +216,15 @@ It provides the campaign offer which attract users which gives benefit to both u
     
     
 ### Testing User Stories 
-    -#### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
-        - I want to easily understand the purpose and the layout of the site without additional instructions needed.
-        - The landing page is simple and clear with a image and offer. 
-        - All pages of website has navigation bar and footer. 
-        - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
-        - The footer has contact details and link of email so I can easily add it to my contact. 
-        - Footer has clear information of opening hours.
-        - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
-        - I want to access external links and be able to learn more about each page.
+- #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
+    - I want to easily understand the purpose and the layout of the site without additional instructions needed.
+    - The landing page is simple and clear with a image and offer. 
+    - All pages of website has navigation bar and footer. 
+    - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
+    - The footer has contact details and link of email so I can easily add it to my contact. 
+    - Footer has clear information of opening hours.
+    - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
+    - I want to access external links and be able to learn more about each page.
         - Home Page
             - Home page provides the offer and signup button.When I click on signup button I reach to signup page.
         - About Us Page
@@ -236,14 +236,14 @@ It provides the campaign offer which attract users which gives benefit to both u
         - Signin/Signup Page
             - Signin/signup page provides signin form with signin button.
 
-    - #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
-        - I want to look for address and contact details which I can easily find in footer on all pages.
+- #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
+    - I want to look for address and contact details which I can easily find in footer on all pages.
 
-    - #### The users who want to be member for the gym will look for membership plan and signup button.
-        - I want to be member so I check membership tab.There I can easily find all membership plan with price details.There is signup button too.
+- #### The users who want to be member for the gym will look for membership plan and signup button.
+    - I want to be member so I check membership tab.There I can easily find all membership plan with price details.There is signup button too.
 
-    - #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
-        - I want to check my account and in header I can see signin option on all pages.
+- #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
+    - I want to check my account and in header I can see signin option on all pages.
         
 <a name="deployment"></a>
 ## Deployment
