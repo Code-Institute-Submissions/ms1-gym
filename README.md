@@ -67,21 +67,25 @@ It provides the campaign offer which attract users which gives benefit to both u
 ### Design
 
 - #### Colour 
-    - <img src="assets/image/readme-img/#002a4e.png" height="40px" /> 
-    This website is design for gym which needs lots of motivation.
-    The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for gym page.
-
-    - <img src="assets/image/readme-img/#f0f8ff.png" height="40px" />
+      
+    - This website is design for gym which needs lots of motivation.
+      The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for gym page.
+      
+      <img src="assets/image/readme-img/#002a4e.png" height="40px" />
+    
+    - The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
+      
+      <img src="assets/image/readme-img/#f0f8ff.png" height="40px" />
       <img src="assets/image/readme-img/#ffffff.png" height="40px" />
       
-    The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
+    - These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for membership section.
      
-    - <img src="assets/image/readme-img/#00ffff.png" height="40px" />
+      <img src="assets/image/readme-img/#00ffff.png" height="40px" />
       <img src="assets/image/readme-img/#c0c0c0.png" height="40px" />
       <img src="assets/image/readme-img/#daa520.png" height="40px" />
       <img src="assets/image/readme-img/#000000.png" height="40px" />
 
-    These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for membership section.
+    
      
 - #### Typography
     - The main font used is a Roboto with sans-serif as a fallback font.
