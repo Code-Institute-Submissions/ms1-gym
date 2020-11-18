@@ -67,7 +67,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 ### Design
 
 - #### Colour 
-    - <img src="assets/image/readme-img/#002a4e.png" height="40px" /> This website is design for gym which needs lots of motivation.
+    - <img src="./assets/image/readme-img/#002a4e.png" height="40px" /> This website is design for gym which needs lots of motivation.
     The main color which is used for header and footer is dark blue which shows trust to stay with it.
 
     - <img src="assets/image/readme-img/#f0f8ff.png" height="40px" />
