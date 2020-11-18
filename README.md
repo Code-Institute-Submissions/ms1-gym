@@ -100,7 +100,6 @@ It provides the campaign offer which attract users which gives benefit to both u
     <img src="assets/image/mockup/membership.png" />
     <img src="assets/image/mockup/gallery.png" />
     <img src="assets/image/mockup/signin.png" />
-    <img src="assets/image/mockup/signup.png" />
 
  <a name="features"></a>
 ## Features
@@ -205,38 +204,46 @@ It provides the campaign offer which attract users which gives benefit to both u
 - This website is shared on slack channel to get the feedback.
 
 ### Compatibility Testing
+- Browser Compatibility
+    - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari
+-OS Compatibility
+    - Tested on iOS , Android 10 and Windows 10.
+-Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
 
 ### Performance Testing
-
+    - Tested on Developer Tools Lighthouse.
+    
+    
 ### Testing User Stories 
 - #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
-      1. I want to easily understand the purpose and the layout of the site without additional instructions needed.
+        - I want to easily understand the purpose and the layout of the site without additional instructions needed.
         - The landing page is simple and clear with a image and offer. 
         - All pages of website has navigation bar and footer. 
         - With navigation bar I can easily access diiferent page and go anywhere from present page and come back.
         - The footer has contact details and link of email so I can easily add it to my contact. 
         - Footer has clear information of opening hours.
         - Footer has social link. If I click on link it open the relevant page on different tab so I can easily check the social activity of gym without closing site.
-    
-    1. I want to access external links and be able to learn more about each page.
+        - I want to access external links and be able to learn more about each page.
         - Home Page
-            -
+            - Home page provides the offer and signup button.When I click on signup button I reach to signup page.
         - About Us Page
-            - 
+            - About us page proides gym information ,equipment and different training plan.
         - Membership Page
-            -
+            - Membership page provides membership plan like monthy yearly with price details.There is also loyality program from blue to gold membership.There is signup button too.
         - Gallery Page
-            - 
-        - Signup Page
+            - In gallery page there are many pictures of gym.
+        - Signin/Signup Page
+            - Signin/signup page provides signin form with signin button.
 
 - #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
-    
+        - I want to look for address and contact details which I can easily find in footer on all pages.
 
 - #### The users who want to be member for the gym will look for membership plan and signup button.
-
+        - I want to be member so I check membership tab.There I can easily find all membership plan with price details.There is signup button too.
 
 - #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
-
+        - I want to check my account and in header I can see signin option on all pages.
+        
 <a name="deployment"></a>
 ## Deployment
 
