@@ -49,14 +49,14 @@ It provides the campaign offer which attract users which gives benefit to both u
     1. I want to access external links. 
 
 - #### The users who want to join the gym will check how far it is from their place and the contact details.
-    1. I want to find the contact details easily without going to any tab on page.
-    1. I want to find the address details easily without single click on screen.
+    1. I want to look the contact details easily without going to any tab on page.
+    1. I want to look the address details easily without single click on screen.
     1. I want to check any offers which should be on landing page and I can find easily.
 
 - #### The users who want to be member for the gym will look for signup button.
-    1. I want to find the training which suits me.
+    1. I want to look the training which suits me.
     1. I want to check the price for my training.
-    1. I want to look find for signup button on landing page for becoming the member of gym.
+    1. I want to look for signup button on landing page for becoming the member of gym.
    
 - #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
     1. I want the site is responsive on all device as I usually use phone for doing all such type of stuff.
@@ -67,20 +67,21 @@ It provides the campaign offer which attract users which gives benefit to both u
 ### Design
 
 - #### Colour 
-    - <img src="./assets/image/readme-img/#002a4e.png" height="40px" /> This website is design for gym which needs lots of motivation.
-    The main color which is used for header and footer is dark blue which shows trust to stay with it.
+    - <img src="assets/image/readme-img/#002a4e.png" height="40px" /> 
+    This website is design for gym which needs lots of motivation.
+    The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for gym page.
 
     - <img src="assets/image/readme-img/#f0f8ff.png" height="40px" />
       <img src="assets/image/readme-img/#ffffff.png" height="40px" />
       
-    The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.
+    The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
      
     - <img src="assets/image/readme-img/#00ffff.png" height="40px" />
       <img src="assets/image/readme-img/#c0c0c0.png" height="40px" />
       <img src="assets/image/readme-img/#daa520.png" height="40px" />
       <img src="assets/image/readme-img/#000000.png" height="40px" />
 
-    These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for content.
+    These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for membership section.
      
 - #### Typography
     - The main font used is a Roboto with sans-serif as a fallback font.
@@ -135,7 +136,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 
 
 ### Specific to Pages
-- [x] **Landing Page**
+- [x] **Home**
     - This page has header, footer and a hero image in background. The header has navigation bar and footer has contact, schedule time and social links.The image brings the user's attention and inviting the user to explore the website.
 
 - [x] **About Us**
@@ -169,9 +170,9 @@ It provides the campaign offer which attract users which gives benefit to both u
 
 - [Bootstrap v4.5.0](https://getbootstrap.com/) - Used for the responsive layout as well as custom components such as header, footer, images, icons, grids, cards, and collapse element.
 - [Font Awesome](https://fontawesome.com/) - Font Awesome is used to add social icons for socila links and icons for about us page.
-- [Google Fonts](https://fonts.google.com/) - Google Fonts is used to import 'Expo' in the style.css stylesheet.
+- [Google Fonts](https://fonts.google.com/) - Google Fonts is used to import 'Expo'
 - [Git](https://git-scm.com/) - Git is used to allow for tracking of any changes in the code and for the version control.
-- [GitPod](https://www.gitpod.io/) - GitPod, connected to GitHub, hosted the coding space and allowed the projected to be committed to the Github repository.
+- [GitPod](https://www.gitpod.io/) - GitPod, connected to GitHub, hosted the coding space and allowed the project to be committed to the Github repository.
 - [Github](https://github.com/) - GitHub is used to host the project files and publish the live website by using Git Pages.
 - [Adobe Xd](https://www.adobe.com/ie/products/xd.html) - Adobe Xd is used to create mockups.
 
@@ -201,21 +202,21 @@ It provides the campaign offer which attract users which gives benefit to both u
 <a href="#"></a>
 
 ### Usability Testing
-- This website is shared on slack channel to get the feedback.
+- This website is shared on slack channel to get the feedback.This is also shared with friends to check on different device and accessbility.
 
 ### Compatibility Testing
 - Browser Compatibility
-    - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari
--OS Compatibility
+    - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari.
+- OS Compatibility
     - Tested on iOS , Android 10 and Windows 10.
--Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
+- Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
 
 ### Performance Testing
-    - Tested on Developer Tools Lighthouse.
+- Tested on Developer Tools Lighthouse.
     
     
 ### Testing User Stories 
-- #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
+    -#### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
         - I want to easily understand the purpose and the layout of the site without additional instructions needed.
         - The landing page is simple and clear with a image and offer. 
         - All pages of website has navigation bar and footer. 
@@ -235,19 +236,19 @@ It provides the campaign offer which attract users which gives benefit to both u
         - Signin/Signup Page
             - Signin/signup page provides signin form with signin button.
 
-- #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
+    - #### The users who want to join the gym will look for address and contact details. They will also check for any offers.
         - I want to look for address and contact details which I can easily find in footer on all pages.
 
-- #### The users who want to be member for the gym will look for membership plan and signup button.
+    - #### The users who want to be member for the gym will look for membership plan and signup button.
         - I want to be member so I check membership tab.There I can easily find all membership plan with price details.There is signup button too.
 
-- #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
+    - #### The users who are already a member will look for signin button to check their account and also check if there is any new offers.
         - I want to check my account and in header I can see signin option on all pages.
         
 <a name="deployment"></a>
 ## Deployment
 
-### Publishing
+- ### Publishing
 This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below.
 1. Go to the GitHub website and log in.
 2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project).
@@ -257,7 +258,7 @@ This website was published using [GitHub Pages](https://pages.github.com/). The 
 6. The page will reload and you'll see the link of your published page displayed under 'GitHub' pages.
 7. It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
 
-### Forking
+- ### Forking
 If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
 1. Go to the GitHub website and log in.
 2. Locate the [Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project.
@@ -265,7 +266,7 @@ If you wish to contribute to this website you can Fork it without affecting the 
 4. This will create a copy in your personal repository.
 5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
 
-### Cloning 
+- ### Cloning 
 If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
 1. Go to the GitHub website and log in.
 2. Locate the [Repository](https://github.com/RubySrivastava/ms1-gym/) used for this project.
