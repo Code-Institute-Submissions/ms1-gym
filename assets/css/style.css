@@ -245,6 +245,15 @@ h1 {
   width: 100%;
   font-family: "expo";
 }
+.form-control {
+  width: 60%;
+  margin-left:5px;
+  }
+.forgot-pass {
+  color: black;
+  align-items: center;
+  text-align: right;
+}
 /*End Sign in page*/
 
 /*Sign up Page*/
@@ -255,15 +264,6 @@ h1 {
   display: flex;
   flex: 1 1 auto;
 }
-.form-control {
-  width: 60%;
-  }
-.forgot-pass {
-  color: black;
-  align-items: center;
-  text-align: right;
-}
-
 /*End Sign up Page*/
 
 /*Header*/
