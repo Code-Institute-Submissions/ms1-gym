@@ -4,9 +4,9 @@ body {
 }
 /*End body*/
 
-/*container*/
+/*container
 .container-fluid {
-  padding: 0px;
+  
   width: 100%;
 }
 /*End container*/
@@ -108,6 +108,10 @@ h1 {
   text-align: left;
   padding: 30px;
   height: 100%;
+}
+.eq-img{
+    width:100%;
+    padding:10px;
 }
 /*End About Us Page*/
 
