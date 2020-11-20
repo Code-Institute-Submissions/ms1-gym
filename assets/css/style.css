@@ -4,13 +4,6 @@ body {
 }
 /*End body*/
 
-/*container
-.container-fluid {
-  
-  width: 100%;
-}
-/*End container*/
-
 /*Home Page*/
 .callout-container {
   background: url("../image/hero-image1.jpg") no-repeat bottom right;
@@ -109,14 +102,28 @@ h1 {
   padding: 30px;
   height: 100%;
 }
-.eq-img{
-    width:100%;
-    padding:10px;
+.bg-col {
+  background-color: aliceblue;
+}
+.eq-img {
+  width: 100%;
+  height: 520px;
+  padding: 10px;
 }
 /*End About Us Page*/
 
 /*Membership Page*/
 .card-img {
+  width: 100%;
+  height: 300px;
+  border-radius: calc(0.25rem - 1px);
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.overlay-card {
   width: 100%;
   height: 300px;
   border-radius: calc(0.25rem - 1px);
@@ -217,11 +224,10 @@ h1 {
   width: 100%;
   height: 400px;
 }
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
-    }
-    
+@media screen and (max-width: 800px) {
+  #photo {
+    column-count: 2;
+  }
 }
 /*End Gallery Page*/
 
@@ -238,36 +244,61 @@ h1 {
   justify-content: center;
   position: relative;
 }
-.login {
-  width: 400px;
-  height: 300px;
-}
 .login-box {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem 1rem;
   margin-top: 6rem;
   margin-bottom: 2rem;
   width: 100%;
   font-family: "expo";
+  color: white;
 }
 .form-control {
   width: 60%;
-  margin-left:5px;
-  }
+  margin-left: 5px;
+}
 .forgot-pass {
-  color: black;
+  color: white;
   align-items: center;
   text-align: right;
 }
 /*End Sign in page*/
 
 /*Sign up Page*/
+.card-signup {
+  margin-top: 70px;
+  height: 100vh;
+}
 .card-img-signup {
   width: 100%;
   height: 100%;
   border-radius: calc(0.25rem - 1px);
   display: flex;
   flex: 1 1 auto;
+  padding: 10px;
+}
+.card-body-signup {
+  padding-left: 70px;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+.title-signup {
+  margin-top: 20px;
+}
+@media screen and (max-width: 500px) {
+  .card-body-signup {
+    padding: 5px;
+    padding-bottom: 0px;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-img-signup {
+    height: 100vh;
+  }
+  .card-body-signup {
+    height: 100vh;
+  }
 }
 /*End Sign up Page*/
 
@@ -277,7 +308,7 @@ h1 {
   width: 100%;
   background-color: #002a4e;
   border: 0;
-  display: flex;
+  display: flex !important;
   padding-left: 0.6rem;
 }
 .logo {
@@ -347,6 +378,7 @@ h1 {
   font-weight: bold;
   border-radius: 15px;
   width: 120px;
+  color: blue;
 }
 .btn--red {
   color: white;
