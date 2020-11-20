@@ -71,19 +71,19 @@ It provides the campaign offer which attract users which gives benefit to both u
     - This website is design for gym which needs lots of motivation.
       The main color which is used for header and footer is dark blue which shows trust to stay with it.Which is perfectly fit for gym page.
       
-      <img src="assets/image/readme-img/#002a4e.png" height="40px" />
+      <img src="assets/image/readme-img/dblue.png" height="40px" />
     
     - The alice blue and white color is used for background-color which shows intelligence and simplicity respectively.Because of this color the content looks simple and clear.
       
-      <img src="assets/image/readme-img/#f0f8ff.png" height="40px" />
-      <img src="assets/image/readme-img/#ffffff.png" height="40px" />
+      <img src="assets/image/readme-img/aliceblue.png" height="40px" />
+      <img src="assets/image/readme-img/white.png" height="40px" />
       
     - These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for membership section.
      
-      <img src="assets/image/readme-img/#00ffff.png" height="40px" />
-      <img src="assets/image/readme-img/#c0c0c0.png" height="40px" />
-      <img src="assets/image/readme-img/#daa520.png" height="40px" />
-      <img src="assets/image/readme-img/#000000.png" height="40px" />
+      <img src="assets/image/readme-img/cyan.png" height="40px" />
+      <img src="assets/image/readme-img/silver.png" height="40px" />
+      <img src="assets/image/readme-img/gold.png" height="40px" />
+      <img src="assets/image/readme-img/black.png" height="40px" />
 
     
      
@@ -105,7 +105,7 @@ It provides the campaign offer which attract users which gives benefit to both u
     <img src="assets/image/mockup/membership.png" />
     <img src="assets/image/mockup/gallery.png" />
     <img src="assets/image/mockup/signin.png" />
-
+    <img src="assets/image/mockup/signup.png" />
  <a name="features"></a>
 ## Features
 
@@ -217,7 +217,47 @@ It provides the campaign offer which attract users which gives benefit to both u
 
 ### Performance Testing
 - Tested on Developer Tools Lighthouse.
-    
+ - #### To run a report:
+
+    1. Download Google Chrome for Desktop.
+    2. In Google Chrome, go to the URL you want to audit. You can audit any URL on the web.
+    3. Open Chrome DevTools.
+    4. Click the Audits tab.
+    5. To the left is the viewport of the page that will be audited. To the right is the Audits panel of Chrome DevTools, which is now powered by Lighthouse.
+    6. Click Perform an audit. DevTools shows you a list of audit categories. Leave them all enabled.
+    7. Click Run audit. After 30 to 60 seconds, Lighthouse gives you a report on the page.
+
+ - ####A Lighthouse report in Chrome DevTools
+   - Home Page
+
+   <img src="assets/image/readme-img/home-desktop.png" />
+   <img src="assets/image/readme-img/home-mobile.png" />
+
+   - About Us Page
+
+   <img src="assets/image/readme-img/aboutus-desktop.png" />
+   <img src="assets/image/readme-img/aboutus-mobile.png" />
+
+   - Membership Page
+
+   <img src="assets/image/readme-img/membership-desktop.png" />
+   <img src="assets/image/readme-img/membership-mobile.png" />
+
+   - Gallery Page
+
+   <img src="assets/image/readme-img/gallery-desktop.png" />
+   <img src="assets/image/readme-img/gallery-mobile.png" />
+
+   - Signin Page
+
+   <img src="assets/image/readme-img/signin-desktop.png" />
+   <img src="assets/image/readme-img/signin-mobile.png" />
+
+   - Signup Page
+   
+   <img src="assets/image/readme-img/signup-desktop.png" />
+   <img src="assets/image/readme-img/signup-mobile.png" />
+
     
 ### Testing User Stories 
 - #### Any user who check the website first time wants to know about gym. User wants that they could easily navigate the tab to find the relevant information.
