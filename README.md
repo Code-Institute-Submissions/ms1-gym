@@ -217,11 +217,11 @@ Vaidate by direct input
   - This website is shared on slack channel to get the feedback.This is also shared with friends to check on different device and accessbility.
 
 ### Compatibility Testing
--#### Browser Compatibility
-  - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari.
--#### OS Compatibility
-  - Tested on iOS , Android 10 and Windows 10.
--#### Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
+  - #### Browser Compatibility
+    - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari.
+  - #### OS Compatibility
+    - Tested on iOS , Android 10 and Windows 10.
+  - #### Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
 
 ### Performance Testing
   - #### Tested on Developer Tools Lighthouse.
