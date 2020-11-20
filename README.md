@@ -217,11 +217,11 @@ Vaidate by direct input
   - This website is shared on slack channel to get the feedback.This is also shared with friends to check on different device and accessbility.
 
 ### Compatibility Testing
-  -#### Browser Compatibility
-    - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari.
-  -#### OS Compatibility
-    - Tested on iOS , Android 10 and Windows 10.
-  -#### Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
+-#### Browser Compatibility
+  - Tested on Chrome, Firefox, Opera, Internet Explorer, Microsoft Edge, Safari.
+-#### OS Compatibility
+  - Tested on iOS , Android 10 and Windows 10.
+-#### Tested for responsivness on [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). 
 
 ### Performance Testing
   - #### Tested on Developer Tools Lighthouse.
@@ -236,35 +236,35 @@ Vaidate by direct input
         7. Click Run audit. After 30 to 60 seconds, Lighthouse gives you a report on the page.
 
   - #### A Lighthouse report in Chrome DevTools
-    - Home Page
+    - Home Page Dektop and Mobile
 
-    - <img src="assets/image/readme-img/home-desktop.png" />
-    - <img src="assets/image/readme-img/home-mobile.png" />
+     <img src="assets/image/readme-img/home-desktop.png" />
+     <img src="assets/image/readme-img/home-mobile.png" />
 
-    - About Us Page
+    - About Us Page Dektop and Mobile
 
-    - <img src="assets/image/readme-img/aboutus-desktop.png" />
-    - <img src="assets/image/readme-img/aboutus-mobile.png" />
+     <img src="assets/image/readme-img/aboutus-desktop.png" />
+     <img src="assets/image/readme-img/aboutus-mobile.png" />
 
-    - Membership Page
+    - Membership Page Dektop and Mobile
 
-    - <img src="assets/image/readme-img/membership-desktop.png" />
-    - <img src="assets/image/readme-img/membership-mobile.png" />
+      <img src="assets/image/readme-img/membership-desktop.png" />
+      <img src="assets/image/readme-img/membership-mobile.png" />
 
-    - Gallery Page
+    - Gallery Page Dektop and Mobile
 
-    - <img src="assets/image/readme-img/gallery-desktop.png" />
-    - <img src="assets/image/readme-img/gallery-mobile.png" />
+      <img src="assets/image/readme-img/gallery-desktop.png" />
+      <img src="assets/image/readme-img/gallery-mobile.png" />
 
-    - Signin Page
+    - Signin Page Dektop and Mobile
 
-    - <img src="assets/image/readme-img/signin-desktop.png" />
-    - <img src="assets/image/readme-img/signin-mobile.png" />
+      <img src="assets/image/readme-img/signin-desktop.png" />
+      <img src="assets/image/readme-img/signin-mobile.png" />
 
-    - Signup Page
+    - Signup Page Dektop and Mobile
    
-    - <img src="assets/image/readme-img/signup-desktop.png" />
-    - <img src="assets/image/readme-img/signup-mobile.png" />
+      <img src="assets/image/readme-img/signup-desktop.png" />
+      <img src="assets/image/readme-img/signup-mobile.png" />
 
     
 ### Testing User Stories 
