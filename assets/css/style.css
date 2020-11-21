@@ -4,6 +4,12 @@ body {
 }
 /*End body*/
 
+/* content*/
+.page-content{
+      min-height: calc(100vh - 180px);
+}
+/*end content*/
+
 /*Home Page*/
 .callout-container {
   background: url("../image/hero-image1.jpg") no-repeat bottom right;
@@ -293,6 +299,8 @@ h1 {
   .card-img-signup {
     height: 100vh;
   }
+}
+@media screen and (min-width: 768px) {
   .card-body-signup {
     height: 100vh;
   }
