@@ -238,33 +238,33 @@ Vaidate by direct input
   - #### A Lighthouse report in Chrome DevTools
     - Home Page Dektop and Mobile
 
-     <img src="assets/image/readme-img/home-desktop.png" />
-     <img src="assets/image/readme-img/home-mobile.png" />
+     <img src="assets/image/readme-img/home-desktop.png" height="120px"/>
+     <img src="assets/image/readme-img/home-mobile.png" height="120px"/>
 
     - About Us Page Dektop and Mobile
 
-     <img src="assets/image/readme-img/aboutus-desktop.png" />
-     <img src="assets/image/readme-img/aboutus-mobile.png" />
+     <img src="assets/image/readme-img/aboutus-desktop.png" height="120px"/>
+     <img src="assets/image/readme-img/aboutus-mobile.png" height="120px"/>
 
     - Membership Page Dektop and Mobile
 
-      <img src="assets/image/readme-img/membership-desktop.png" />
-      <img src="assets/image/readme-img/membership-mobile.png" />
+      <img src="assets/image/readme-img/membership-desktop.png" height="120px"/>
+      <img src="assets/image/readme-img/membership-mobile.png" height="120px"/>
 
     - Gallery Page Dektop and Mobile
 
-      <img src="assets/image/readme-img/gallery-desktop.png" />
-      <img src="assets/image/readme-img/gallery-mobile.png" />
+      <img src="assets/image/readme-img/gallery-desktop.png" height="120px"/>
+      <img src="assets/image/readme-img/gallery-mobile.png" height="120px"/>
 
     - Signin Page Dektop and Mobile
 
-      <img src="assets/image/readme-img/signin-desktop.png" />
-      <img src="assets/image/readme-img/signin-mobile.png" />
+      <img src="assets/image/readme-img/signin-desktop.png" height="120px"/>
+      <img src="assets/image/readme-img/signin-mobile.png" height="120px"/>
 
     - Signup Page Dektop and Mobile
    
-      <img src="assets/image/readme-img/signup-desktop.png" />
-      <img src="assets/image/readme-img/signup-mobile.png" />
+      <img src="assets/image/readme-img/signup-desktop.png"height="120px" />
+      <img src="assets/image/readme-img/signup-mobile.png" height="120px" />
 
     
 ### Testing User Stories 
