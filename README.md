@@ -82,7 +82,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 - #### These color used according to text context. As silver, gold and black show prosperity ,success and elegance ,it perfectly fit for membership section.
      
     <img src="assets/image/readme-img/cyan.png" height="40px" />
-    <img src="assets/image/readme-img/silver.png" height="40px" />
+    <img src="assets/image/readme-img/gray.png" height="40px" />
     <img src="assets/image/readme-img/gold.png" height="40px" />
     <img src="assets/image/readme-img/black.png" height="40px" />
 
@@ -201,7 +201,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 ### CSS3 validator 
 Validate by direct input 
     [CSS Validator]("https://jigsaw.w3.org/css-validator/")
-  - Test result : Pass
+  - Test result : No Error Found But Warning
 
 ### HTML5 validator
 Vaidate by direct input 
@@ -349,7 +349,7 @@ There are no identified bugs as at now.
     - Code Institute [README Template](https://github.com/Code-Institute-Solutions/readme-template)
     - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
     
-- All content was written by the coder itself.
+- All content was written by the coder after getting ideas from fitness website(Specially Nordic Wellness and Fitness27seven).
 
 ### Media :
 - All images used were taken from [UnSplash website](https://unsplash.com/)
