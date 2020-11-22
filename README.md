@@ -94,6 +94,7 @@ It provides the campaign offer which attract users which gives benefit to both u
 ### Imagery
 
 - #### Images used for website describe overall information and details of gym.
+    -[Image Optimizer](http://jpeg-optimizer.com/)
 
 ### Mockups
 
@@ -263,7 +264,7 @@ Vaidate by direct input
 
     - Signup Page Dektop and Mobile
    
-      <img src="assets/image/readme-img/signup-desktop.png"height="120px" />
+      <img src="assets/image/readme-img/signup-desktop.png" height="120px" />
       <img src="assets/image/readme-img/signup-mobile.png" height="120px" />
 
     
