@@ -273,43 +273,6 @@ h1 {
   justify-content: center;
   position: relative;
 }
-.card-signup {
-  margin-top: 70px;
-  height: 100vh;
-}
-.card-img-signup {
-  width: 100%;
-  height: 100%;
-  border-radius: calc(0.25rem - 1px);
-  display: flex;
-  flex: 1 1 auto;
-  padding: 10px;
-}
-.card-body-signup {
-  padding-left: 70px;
-  margin: 0px;
-  margin-bottom: 0px;
-}
-.title-signup {
-  margin-top: 20px;
-}
-@media screen and (max-width: 500px) {
-  .card-body-signup {
-    padding: 5px;
-    padding-bottom: 0px;
-    height: 100vh;
-  }
-}
-@media screen and (min-width: 768px) {
-  .card-img-signup {
-    height: 100vh;
-  }
-}
-@media screen and (min-width: 768px) {
-  .card-body-signup {
-    height: 100vh;
-  }
-}
 /*End Sign up Page*/
 
 /*Header*/
